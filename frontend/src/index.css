@@ -1,0 +1,42 @@
+/* index.css или App.css */
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+code {
+  font-family: 'Press Start 2P', monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.digit-input {
+  width: 48px;
+  height: 48px;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: inset -2px -2px 0px 0px #999;
+  border: 2px solid #333;
+  background-color: #fff;
+  margin: 0 8px;
+}
+
+.button-line{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
